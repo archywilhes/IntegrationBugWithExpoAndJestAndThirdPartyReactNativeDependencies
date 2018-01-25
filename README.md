@@ -1,3 +1,18 @@
+This repo is created to demonstrate an integration bug with Just + Expo + other React Native libraries that need `transformIgnorePatterns` to go around a 1-year-old ES6 problem in Jest, as reported in these tickets:
+
+https://github.com/facebook/jest/issues/5381
+
+https://github.com/expo/expo/issues/1316
+
+
+Without `transformIgnorePatterns`:
+![](screenshot.png)
+
+With `transformIgnorePatterns`:
+![](screenshot2.png)
+
+## Below is an automatically generated readme content by `Create React Native App`
+
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 
 Below you'll find information about performing common tasks. The most recent version of this guide is available [here](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md).
